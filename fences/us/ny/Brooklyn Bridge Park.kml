@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Brooklyn Bridge Park.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>4000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>4000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Brooklyn Bridge Park</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-74.00208068582172,40.69245047708932,0 -74.0020294680622,40.69220794954041,0 -74.00078199281204,40.69182862221719,0 -74.00028201366987,40.69193806210394,0 -73.99839155528763,40.69558278421513,0 -73.99743476723127,40.69785575842715,0 -73.99512370523949,40.70265338827598,0 -73.99456949934182,40.70311844058954,0 -73.99612020908444,40.70360167874658,0 -73.99874953294933,40.7016696299025,0 -73.99724068395253,40.7009326842593,0 -73.9979805938125,40.70018640145321,0 -73.99945075482586,40.70059147713513,0 -74.00024038863778,40.69967976058034,0 -73.99840530194753,40.69860728146645,0 -73.99867266198419,40.69826551754022,0 -74.00051752615819,40.6989812940091,0 -74.00120710784496,40.698102429895,0 -73.99931959967522,40.69712775835939,0 -74.00061397202282,40.69524509811129,0 -74.00246423633675,40.69595638007313,0 -74.00319245116896,40.69487139585098,0 -74.00123146841828,40.69400764748433,0 -74.00144088334098,40.69349300840278,0 -74.00345565967334,40.69422449279764,0 -74.00411424669042,40.69319123389759,0 -74.00208068582172,40.69245047708932,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
